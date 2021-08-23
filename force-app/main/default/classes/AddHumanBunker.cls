@@ -12,27 +12,27 @@ global class AddHumanBunker implements Schedulable
 		
         //pegar um número aleatório e definir em qual bunker o humano ira ficar
         for(Criatura__c hm : humanList){
-        	if(Integer.valueOf(Math.random()*100) <= 1 ) //ilha
+        	if(Integer.valueOf(Math.random()*1000) <= 1 ) //ilha
         	{
             	hm.Bunker__c = 'a015e00000Pjp9EAAR';
         	}
-        	else if(Integer.valueOf(Math.random()*100) <= 5) //Subterranêo
+        	else if(Integer.valueOf(Math.random()*1000) <= 10) //Subterranêo
         	{
             	hm.Bunker__c = 'a015e00000Pjp9PAAR';
         	}
-            else if(Integer.valueOf(Math.random()*100) <= 12) //Montanha
+            else if(Integer.valueOf(Math.random()*1000) <= 120) //Montanha
         	{
             	hm.Bunker__c = 'a015e00000Pjp9nAAB'; 
             }
-            else if(Integer.valueOf(Math.random()*100) <= 20) // Floresta
+            else if(Integer.valueOf(Math.random()*1000) <= 200) // Floresta
         	{
             	hm.Bunker__c = 'a015e00000Pjp9iAAB';
             }
-            else if(Integer.valueOf(Math.random()*100) <= 30) // Presídio
+            else if(Integer.valueOf(Math.random()*1000) <= 300) // Presídio
         	{
             	hm.Bunker__c = 'a015e00000NkRiaAAF';
             }
-            else if(Integer.valueOf(Math.random()*100) <= 40) // Cidade
+            else if(Integer.valueOf(Math.random()*1000) <= 400) // Cidade
         	{
             	hm.Bunker__c = 'a015e00000Pjp9OAAR';
         	}
