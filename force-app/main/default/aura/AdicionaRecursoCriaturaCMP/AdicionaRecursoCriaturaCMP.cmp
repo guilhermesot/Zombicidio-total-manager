@@ -5,7 +5,7 @@
     <aura:attribute name="recursosLst" 			type="List" />
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" /> 
     
-	<lightning:card variant="Narrow" title="Adiciona Recursos" iconName="custom:custom9">
+	<lightning:card variant="Narrow" title="Adiciona Recursos" iconName="custom:custom13">
         <p class="slds-p-horizontal_small">
             <lightning:combobox 
                                 name="listaRecursos" 
